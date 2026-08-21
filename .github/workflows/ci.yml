@@ -1,0 +1,17 @@
+name: Build and self-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  macos-build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Universal app
+        run: ./build.sh
+      - name: Run command-line self-test
+        run: ./dist/微信多开助手.app/Contents/MacOS/WeChatMultiOpener --selftest
+      - name: Verify package checksum
+        run: cd dist && shasum -a 256 -c 微信多开助手.zip.sha256

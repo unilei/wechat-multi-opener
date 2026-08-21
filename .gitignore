@@ -1,0 +1,22 @@
+# macOS / Xcode
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+
+# Local build outputs (release assets are uploaded separately)
+dist/
+!dist/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+.env
+.env.*
+
+# Signing material must never enter the repository
+*.p12
+*.cer
+*.mobileprovision
+*.pem
+*.key
