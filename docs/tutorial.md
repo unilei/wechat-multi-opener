@@ -2,7 +2,7 @@
 
 ## 1. 获取项目
 
-推荐从 GitHub Release 下载，并核对 Release 页面提供的 SHA-256。开发者或希望自行审计的用户可以直接克隆源码构建。
+推荐从 [GitHub Releases](https://github.com/unilei/wechat-multi-opener/releases) 下载，并核对 Release 页面提供的 SHA-256。开发者或希望自行审计的用户可以直接克隆源码构建。
 
 ## 2. 首次启动
 

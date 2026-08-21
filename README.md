@@ -47,7 +47,7 @@ open "/Applications/微信多开助手.app"
 
 ### 方式二：下载 Release
 
-从 GitHub Releases 下载 ZIP 或 DMG，解压/拖入“应用程序”后启动。未使用 Developer ID 公证时，macOS 可能显示“无法验证开发者”；确认源码和校验值可信后，可在 Finder 中右键 App，选择“打开”，或到“系统设置 → 隐私与安全性”点击“仍要打开”。
+从 [GitHub Releases](https://github.com/unilei/wechat-multi-opener/releases) 下载 ZIP 或 DMG，解压/拖入“应用程序”后启动。未使用 Developer ID 公证时，macOS 可能显示“无法验证开发者”；确认源码和校验值可信后，可在 Finder 中右键 App，选择“打开”，或到“系统设置 → 隐私与安全性”点击“仍要打开”。
 
 每次下载后可校验 SHA-256：
 
